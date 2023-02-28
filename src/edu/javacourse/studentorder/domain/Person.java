@@ -9,6 +9,10 @@ public class Person {
     private LocalDate dateOfBirth;
     private Address address;
 
+    public Person() {
+        System.out.println("Person is created");
+    }
+
     public String getPersonString() {
         return surName + " " + givenName;
     }
